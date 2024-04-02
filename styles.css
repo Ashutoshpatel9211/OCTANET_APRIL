@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.main-section {
+    
+    padding: 50px 0;
+    background-color: #b3b1b1;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    
+    
+    flex: 1;
+    padding: 20px;
+    background-color: #e2fd99;
+    border: 1px solid #c587e9;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #23dafa;
+    color: #191919;
+    text-align: center;
+    padding: 20px 0;
+}
+/* styles.css */
+
+ .about-us-section {
+    background-image: url('i.jpg'  ); 
+    background-size: cover;
+    background-position: center;
+    color: #fffbfb;
+    text-align:center;
+    
+    padding: 100px 0;
+}
+/* styles.css */
+
+
+
+.social-icons {
+    
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* styles.css */
+
+.scrolling-text {
+    /*background-image: url('myimage.jpeg ' );*/
+    background-color: #1a8dd0;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
+.scrolling-text h1 {
+
+    animation: scroll 20s linear infinite; /* Adjust speed as needed */
+}
+.scrolling-text h2 {
+    color: #000000;text-align: right;
+    
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(70%);
+    }
+    to {
+        transform: translateX(-70%);
+    }
+}
